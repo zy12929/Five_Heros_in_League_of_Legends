@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.five_heros_in_league_of_legends.Main2Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO.5"
+        android:textColor="#512DA8"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:id="@+id/No5"
+        android:padding="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kassadin"
+        android:layout_below="@id/No5"
+        android:textColor="#512DA8"
+        android:textSize="30sp"
+        android:id="@+id/Kassadin"
+        android:gravity="center"
+        android:padding="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ---- The balance of power       must be preserved."
+        android:layout_below="@id/Kassadin"
+        android:textColor="#512DA8"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.five_heros_in_league_of_legends.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="NO.5 Kassadin"
+        android:textColor="#FBE9E7"
+        android:background="#EF9A9A"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:onClick="goOne"        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="NO.4   Katarina"
+        android:textColor="#FBE9E7"
+        android:background="#E57373"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:onClick="goTwo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="NO.3           Zed"
+        android:textColor="#FBE9E7"
+        android:background="#F44336"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:onClick="goThree"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="NO.2   LeBlanc"
+        android:gravity="center"
+        android:textColor="#FBE9E7"
+        android:background="#D32F2F"
+        android:textSize="40sp"
+        android:onClick="goFour"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="NO.1       Riven"
+        android:gravity="center"
+        android:background="#B71C1C"
+        android:textColor="#FBE9E7"
+        android:textSize="40sp"
+        android:onClick="goFive"/>
+</LinearLayout>
