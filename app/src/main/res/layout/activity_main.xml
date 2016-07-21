@@ -4,38 +4,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.five_heros_in_league_of_legends.MainActivity">
+    tools:context="com.example.android.five_heros_in_league_of_legends.MainActivity"
+    android:background="#E0F2F1">
 
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.29"
+        android:text="Top 5 of the most popular heros"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="#000000"
+        android:padding="8dp"
+        android:textColor="#FFFF00"
+        android:textSize="35sp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:text="NO.5 Kassadin"
         android:textColor="#FBE9E7"
-        android:background="#EF9A9A"
-        android:textSize="40sp"
+        android:textSize="28sp"
         android:gravity="center"
-        android:onClick="goOne"        />
+        android:onClick="goOne"
+        android:background="@drawable/kassadin_icon"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:text="NO.4   Katarina"
         android:textColor="#FBE9E7"
-        android:background="#E57373"
         android:gravity="center"
-        android:textSize="40sp"
-        android:onClick="goTwo"/>
+        android:textSize="28sp"
+        android:onClick="goTwo"
+        android:background="@drawable/katarina_icon"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:text="NO.3           Zed"
         android:textColor="#FBE9E7"
-        android:background="#F44336"
         android:gravity="center"
-        android:textSize="40sp"
-        android:onClick="goThree"/>
+        android:textSize="28sp"
+        android:onClick="goThree"
+        android:background="@drawable/zed_icon"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -43,8 +56,8 @@
         android:text="NO.2   LeBlanc"
         android:gravity="center"
         android:textColor="#FBE9E7"
-        android:background="#D32F2F"
-        android:textSize="40sp"
+        android:background="@drawable/leblanc_icon"
+        android:textSize="28sp"
         android:onClick="goFour"/>
     <TextView
         android:layout_width="match_parent"
@@ -52,8 +65,8 @@
         android:layout_weight="1"
         android:text="NO.1       Riven"
         android:gravity="center"
-        android:background="#B71C1C"
         android:textColor="#FBE9E7"
-        android:textSize="40sp"
+        android:textSize="28sp"
+        android:background="@drawable/riven_icon"
         android:onClick="goFive"/>
 </LinearLayout>
