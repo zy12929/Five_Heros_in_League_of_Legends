@@ -75,7 +75,7 @@
             android:layout_height="wrap_content"
             android:text="Abilities:"
             android:layout_below="@id/Quote"
-            android:textColor="#0D47A1"
+            android:textColor="#AD1457"
             android:textSize="23sp"
             android:gravity="center"
             android:id="@+id/Abilities"
