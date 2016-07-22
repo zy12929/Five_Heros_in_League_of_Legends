@@ -69,6 +69,17 @@
         </RelativeLayout>
 
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abilities:"
+            android:layout_below="@id/Quote"
+            android:textColor="#0D47A1"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:id="@+id/Abilities"
+            android:padding="10dp"
+            />
 
 
 
